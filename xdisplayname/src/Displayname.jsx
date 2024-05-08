@@ -23,8 +23,8 @@ const Displayname = () => {
                 }}/>
                 <br/>
                 <button type="submit">Submit</button>
-                <p>Full Name: <span>{fullName}</span></p>
             </form>
+            <p>Full Name: <span>{fullName}</span></p>
         </div>
     );
 }
