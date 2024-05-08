@@ -24,7 +24,7 @@ const Displayname = () => {
                 <br/>
                 <button type="submit">Submit</button>
             </form>
-            <p>Full Name: <span>{fullName}</span></p>
+            {!!fullName ? <p>Full Name: <span>{fullName}</span></p> : <></>}
         </div>
     );
 }
